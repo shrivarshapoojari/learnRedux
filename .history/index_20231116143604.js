@@ -1,0 +1,1 @@
+function removeSpace(s)

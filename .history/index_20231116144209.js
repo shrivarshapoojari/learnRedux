@@ -1,4 +1,4 @@
-import {compose}  from "redux";
+import { compose } from "redux";
 
 function removeSpace(string)
 {
@@ -10,12 +10,10 @@ function repeatString(string)
     return string+string
 
 }
-function toUpper(string)
+function toUpper(sring)
 {
     return string.toUpperCase();
 }
 
 
-const threefn=compose(removeSpace,repeatString,toUpper)
-
-console.log(threefn('hi hlo'))
+const threefn=compose(removeSpace,repeatString,)

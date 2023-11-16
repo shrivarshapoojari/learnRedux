@@ -1,4 +1,4 @@
-import {compose}  from "redux";
+import { compose } from "redux";
 
 function removeSpace(string)
 {
@@ -18,4 +18,4 @@ function toUpper(string)
 
 const threefn=compose(removeSpace,repeatString,toUpper)
 
-console.log(threefn('hi hlo'))
+console.log(threefn('hi '))
